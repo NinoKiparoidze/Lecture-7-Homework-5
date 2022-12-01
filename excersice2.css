@@ -1,0 +1,47 @@
+.parent {
+    height: 700px;
+    width: 80%;
+    margin: 0 150px 0 150px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.box1 {
+    height: 40%;
+    width: 40%;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: lightpink;
+    position: absolute;
+}
+
+.box2 {
+    height: 50%;
+    width: 25%;
+    border: 2px solid black;
+    background-color: mediumaquamarine;
+    position: absolute;
+    left: 33%;
+    top: 33%;
+}
+
+.box3 {
+    height: 30%;
+    width: 80%;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: lightblue;
+    position: absolute;
+    bottom: 0;
+}
+
+.box4 {
+    height: 80%;
+    width: 20%;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: lightgrey;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
